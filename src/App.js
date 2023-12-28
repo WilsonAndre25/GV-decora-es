@@ -1,23 +1,51 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+import CostomNavbar from './Components/CostomNavbar'
+
+import Home from './Components/Home'
+
+import CASAMENTOS1 from './Components/CASAMENTOS1'
+import Graduation from './Components/Graduation';
+import Infantis from './Components/Infantis';
+
+import Batismo from './Components/Batistmo';
+import Mesas from './Components/Mesas'
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div   className='App'>
+     
+      <BrowserRouter>
+      
+
+     <CostomNavbar/>
+   
+ 
+
+     <Routes> 
+    
+    <Route path="*"element={<Home/>}/>
+    <Route path="/CASAMENTOS1"element={<CASAMENTOS1/>}/>
+    <Route path="/Graduation"element={<Graduation/>}/>
+    <Route path="/infantis"element={<Infantis/>}/>
+    <Route path="/Batismo"element={<Batismo/>}/>
+    <Route path="/Mesas"element={<Mesas/>}/>
+       
+        </Routes>
+       
+        
+
+
+      </BrowserRouter>
+
     </div>
   );
 }

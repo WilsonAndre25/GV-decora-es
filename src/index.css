@@ -1,3 +1,6 @@
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,559 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*----------------CSS for Navbar-------------*/
+
+
+
+.tema img{
+  width: 60px;
+  height: 60px;
+   border-radius: 50%;
+   
+}
+
+.Nav1{
+ 
+   background-color: rgb(19, 33, 46);
+}
+
+.title div {
+  color:aliceblue;
+}
+
+#collasible-nav-dropdown{
+  color:#fff;
+}
+
+.Nav2{
+  color:#fff;
+}
+
+
+
+.logovd{
+display: flex;
+justify-content:center;
+
+}
+#home{
+
+  color:#fff;
+}
+
+
+
+.sticky{
+
+  background-color: #fff;
+  padding: 5px 100px;
+
+}
+
+.sticky h6{
+  color: blueviolet;
+}
+
+
+span{
+
+}
+
+.vd{
+  margin-top: 15px;
+  font-style:initial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  color:indigo;
+}
+
+.slider{
+margin-bottom: 20px;
+cursor: pointer;
+
+}
+
+.firstOne{
+display: flex;
+
+}
+
+.firstOne img :hover{
+  
+  color: blanchedalmond;
+}
+
+
+
+.First-slide:hover {
+
+  background-color: coral;
+
+} 
+
+.icon{
+
+  padding-top: 20px;
+  margin-top: 20px;
+
+}
+
+.Temas {
+  display: flex;
+  justify-content:space-around;
+  color:indigo;
+  border-bottom: 1px  solid  rgb(206, 135, 77);
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+
+}
+
+a{
+  
+
+}
+
+
+.Temas a{
+  font-size:12px;
+  color: indigo
+}
+
+.CASAMENTO{
+   transition:transform 0.5s;
+  cursor: pointer;
+}
+
+.CASAMENTO:hover{
+
+   transform:translateY(-5px);
+   color: black;
+ 
+}
+
+
+.BATISMO{
+  transition:transform 0.5s;
+  cursor: pointer;
+
+}
+
+.BATISMO:hover{
+
+  transform:translateY(-5px);
+  color: black;
+
+}
+
+.DESPEDIDAS{
+  transition:transform 0.5s;
+  cursor: pointer;
+
+}
+
+.DESPEDIDAS:hover{
+
+  transform:translateY(-5px);
+  color: black;
+}
+
+
+.BABY{
+  transition:transform 0.5s;
+  cursor: pointer;
+}
+
+.BABY:hover{
+  transform:translateY(-5px);
+  color: black;
+
+}
+
+
+.INFANTIS{
+  transition:transform 0.5s;
+  cursor: pointer;
+}
+
+.INFANTIS:hover{
+  color: black;
+  transform:translateY(-5px);
+
+}
+
+
+.Mesas{
+  transition:transform 0.5s;
+  cursor: pointer;
+}
+
+
+.Mesas:hover{
+  color: black;
+  transform:translateY(-5px);
+
+}
+
+
+
+
+.First-slide{
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.divisão{
+ color:#fff;
+}
+
+.divisão h4{
+  color:#fff;
+}
+
+
+
+
+.cards{
+   margin-top: 4px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.rounded{
+
+  border-radius: 10px;
+}
+
+.marcação{
+  display: flex;
+  justify-content: center;
+   padding: 15px 0px;
+   color:indigo;
+  
+}
+
+
+.imgedite{
+  position: relative;
+  transition: transform 0.5s;
+
+}
+
+
+.foote{
+  position: absolute;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  width: 100%;
+ 
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgba(255,255,255,0.7);
+  bottom: 0%;
+  cursor: pointer;
+  transition: height 0.7s;
+
+}
+
+.imgedite img{
+  transition: transform 0.5s;
+} 
+
+.imgedite :hover .foote{
+height: 100%;
+
+}
+
+div .foote  h5{
+  color: blue;
+}
+div .foote  a{
+  color: black;
+  border-bottom: none;
+}
+
+
+
+.cards2{
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+
+.Clientes h3{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  color: blueviolet; 
+
+}
+
+
+.CardGroup{  
+  margin-top: 40px;
+  display: flex;
+  gap: 80px;
+  size: 42px;
+  justify-content: center;
+}
+
+/*/////////////////////////Footer////////////////////////////////////////*/
+
+.Footer1{
+
+ margin-top: 60px;
+ background-color: rgb(109, 109, 175);
+ padding: 5px;
+ color: rgb(250, 249, 249);
+ display: flex;
+ justify-content: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+
+
+.Footer2{
+
+  background-color: rgb(203, 203, 245);
+  color: black;
+  
+}
+
+
+.contactos2{
+
+  display: flex;
+  padding-top: 60px;
+  margin-left: 50px;
+  gap: 80px ;
+ 
+ 
+}
+
+.reserved{
+
+display: flex;
+justify-content: center;
+padding-top: 60px;
+padding-bottom: 0px;
+
+ 
+}
+
+.reserved p{
+
+  margin-bottom: 0;
+  font-size: 12px;
+
+}
+
+
+.contact3{
+ 
+  border-bottom: solid 2px  rgb(27, 39, 99) ;
+  width: 35%;
+  
+ 
+}
+
+.contact0{
+  border-bottom: solid 2px  rgb(27, 39, 99) ;
+  width: 80%;
+}
+
+.contact{
+  border-bottom: solid 2px  rgb(27, 39, 99) ;
+  width: 100%;
+}
+
+
+
+.contact2{
+  padding-top: 20px;
+  margin-left: 0px;
+}
+
+
+
+.redes{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  cursor: pointer;
+  size: 20px;
+  padding-top: 20px;
+}
+
+.redes a{
+
+  font-size: 25px;
+  color: rgb(27, 27, 27);
+
+}
+
+
+
+.textos Form{ 
+
+width: 170%;
+height: 100%;
+color: rgb(15, 15, 15);
+ 
+
+ justify-content: center;
+}
+
+
+form input, form textarea{
+  background: blue;
+}
+
+.sobre{
+
+  border-bottom: solid 2px  rgb(27, 39, 99) ;
+  width: 22%;
+  padding-top: 40px;
+  cursor: pointer;
+}
+
+
+/*------------CSS for Small Screens---------------*/
+
+
+@media only screen and (max-width:600px) {
+
+
+.Temas{
+  display: block;
+  font-size: 18px;
+
+}
+.Temas h6{
+
+ font-size: 14px;
+
+}
+.CASAMENTO {
+  margin-left: 60px;
+ 
+}
+
+.BATISMO{
+  margin-left: 80px;
+  font-size: 18px;
+
+}
+
+
+.DESPEDIDAS{
+  margin-left: 100px;
+}
+
+
+
+.BABY{
+  margin-left: 120px;
+}
+
+
+.INFANTIS{
+  margin-left: 140px;
+}
+
+.INFANTIS2{
+  margin-left: 160px;
+}
+
+.Mesas{
+  margin-left: 170px;
+}
+
+.cards{
+
+  display: block;
+  margin-left: 25px;
+}
+
+.cards2{
+  display: block;
+  margin-left: 25px;
+}
+
+.imgedite{
+  margin: 16px;
+}
+
+.Clientes h3{
+font-size: 18px;
+
+}
+
+
+.CardGroup{
+  display: block;
+
+}
+
+.card1{
+  margin: 12px;
+}
+
+
+.contactos2{
+ display: block;
+  
+
+}
+
+
+.textos{
+  margin-top: 20px ;
+  display: flex;
+  margin-right: 50px;
+  font-weight: 700;
+  
+
+}
+
+
+.contact3{
+ 
+
+
+
+}
+
+
+.contact0{
+ 
+  margin-top: 20px;
+width: 40%;
+}
+
+
+.contact{
+  margin-top: 20px;
+ width: 40%;
+ 
+ 
+}
+
+
+.redes {
+ margin-right: 40px;
+
+
+}
+
+
 }
