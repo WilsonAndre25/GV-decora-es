@@ -36,7 +36,9 @@ code {
 }
 
 #collasible-nav-dropdown{
+
   color:#fff;
+
 }
 
 .Nav2{
@@ -69,9 +71,6 @@ justify-content:center;
 }
 
 
-span{
-
-}
 
 .vd{
   margin-top: 15px;
@@ -82,31 +81,28 @@ span{
 }
 
 .slider{
-margin-bottom: 20px;
+margin-bottom: 30px;
 cursor: pointer;
 
 }
 
+
+.firstOne img{
+
+   height:655px;
+   width: 655px;
+
+}
+
 .firstOne{
-display: flex;
-
-}
-
-.firstOne img :hover{
+  display: flex;
   
-  color: blanchedalmond;
-}
+   
+  }
+  
 
 
-
-.First-slide:hover {
-
-  background-color: coral;
-
-} 
-
-.icon{
-
+.icon{ 
   padding-top: 20px;
   margin-top: 20px;
 
@@ -120,11 +116,6 @@ display: flex;
   cursor: pointer;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 20px;
-
-}
-
-a{
-  
 
 }
 
@@ -212,11 +203,6 @@ a{
 
 
 
-.First-slide{
-  border-radius: 20px;
-  cursor: pointer;
-}
-
 .divisão{
  color:#fff;
 }
@@ -234,6 +220,7 @@ a{
   gap: 12px;
   justify-content: center;
 }
+
 .rounded{
 
   border-radius: 10px;
@@ -281,14 +268,16 @@ height: 100%;
 
 }
 
+
 div .foote  h5{
   color: blue;
 }
+
+
 div .foote  a{
   color: black;
   border-bottom: none;
 }
-
 
 
 .cards2{
@@ -316,6 +305,8 @@ div .foote  a{
   justify-content: center;
 }
 
+
+
 /*/////////////////////////Footer////////////////////////////////////////*/
 
 .Footer1{
@@ -328,14 +319,10 @@ div .foote  a{
  justify-content: center;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-
 }
 
 
-
-
 .Footer2{
-
   background-color: rgb(203, 203, 245);
   color: black;
   
@@ -343,7 +330,6 @@ div .foote  a{
 
 
 .contactos2{
-
   display: flex;
   padding-top: 60px;
   margin-left: 50px;
@@ -375,8 +361,8 @@ padding-bottom: 0px;
   border-bottom: solid 2px  rgb(27, 39, 99) ;
   width: 35%;
   
- 
 }
+
 
 .contact0{
   border-bottom: solid 2px  rgb(27, 39, 99) ;
@@ -387,7 +373,6 @@ padding-bottom: 0px;
   border-bottom: solid 2px  rgb(27, 39, 99) ;
   width: 100%;
 }
-
 
 
 .contact2{
@@ -414,14 +399,12 @@ padding-bottom: 0px;
 }
 
 
-
 .textos Form{ 
 
 width: 170%;
 height: 100%;
 color: rgb(15, 15, 15);
  
-
  justify-content: center;
 }
 
@@ -450,11 +433,13 @@ form input, form textarea{
   font-size: 18px;
 
 }
+
 .Temas h6{
 
  font-size: 14px;
 
 }
+
 .CASAMENTO {
   margin-left: 60px;
  
@@ -470,8 +455,6 @@ form input, form textarea{
 .DESPEDIDAS{
   margin-left: 100px;
 }
-
-
 
 .BABY{
   margin-left: 120px;
@@ -538,17 +521,8 @@ font-size: 18px;
 }
 
 
-.contact3{
- 
-
-
-
-}
-
-
-.contact0{
- 
-  margin-top: 20px;
+.contact0{ 
+margin-top: 20px;
 width: 40%;
 }
 
@@ -564,7 +538,23 @@ width: 40%;
 .redes {
  margin-right: 40px;
 
+}
 
+
+#responsive-navbar-nav{
+
+border-color: #fff;
+
+}
+
+.firstOne img{
+  width: 400px;
+  height: 350px;
+}
+
+.firstOne {
+  margin-left: 420px;
+ display: flex;
 }
 
 

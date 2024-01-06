@@ -16,22 +16,22 @@ const Casamento = () => {
             <div className='slider'>
 
                 <Row className='justify-content-center '>
-                    <Col md={10} >
+            
                         <Carousel >
                             <Carousel.Item interval={1000}>
                                 <div className='firstOne'>
-
-
                                     <img
-                                        className='w-50 h-50 '
+                                       
                                         src="img/ceanrio noivo 14.jpeg"
-                                        alt="First-slide" />
+                                        alt="First-slide"/>
 
-                                    <img
-                                        className="w-50 h-50 "
-                                        src="img/casamento salão2.jpeg"
-                                        alt="Second slide"
-                                    />
+                                        <img
+                                    
+                                    src="img/casamento salão2.jpeg"
+                                    alt="Second slide"
+                                />
+
+                               
                                 </div>
 
                                 <Carousel.Caption>
@@ -41,20 +41,19 @@ const Casamento = () => {
                             </Carousel.Item>
                             <Carousel.Item interval={500}>
 
-                                <div className='d-flex'>
+                                <div className='firstOne'>
                                     <img
-                                        className="w-50 h-50 "
+                                      
                                         src="img/mesa doura.jpeg"
-                                        alt="Second slide"
+                                        alt="Second "
                                     />
-                                    <div className='divisão'>
-
-                                    </div>
-                                    <img
-                                        className="w-50 h-50"
+                                  
+                                        <img
+                                        
                                         src="img/mesa4.jpeg"
-                                        alt="Second slide"
+                                        alt="Second "
                                     />
+                                
                                 </div>
 
                                 <Carousel.Caption>
@@ -64,21 +63,24 @@ const Casamento = () => {
                             </Carousel.Item>
                             <Carousel.Item>
 
-                                <div className='d-flex'>
+                                <div className='firstOne'>
                                     <img
-                                        className="w-50 h-50"
+                                   
                                         src="img/cenario noivos 9.jpeg"
                                         alt="Third slide"
                                     />
+ 
+                                    
+                              <img
+                               
+                               src="img/cenario noivos 11.jpeg"
+                               alt="Third slide"
+                           />
                                     <div className='divisão'>
 
                                     </div>
 
-                                    <img
-                                        className="w-50 h-50"
-                                        src="img/cenario noivos 11.jpeg"
-                                        alt="Third slide"
-                                    />
+                                   
                                 </div>
                                 <Carousel.Caption>
                                     <h3></h3>
@@ -86,7 +88,7 @@ const Casamento = () => {
                                 </Carousel.Caption>
                             </Carousel.Item>
                         </Carousel>
-                    </Col>
+                  
                 </Row>
             </div>
 
@@ -164,7 +166,6 @@ const Casamento = () => {
 
                     </div>
                 </div>
-
 
                 < div className='cards2'>
 
@@ -277,11 +278,7 @@ const Casamento = () => {
                             <div className="contact2"> <FontAwesomeIcon icon={faHouse} />Beira / Rua General Vieira da Rocha / Pioneiros</div>
                             <div className="contact2"> <FontAwesomeIcon icon={faSquarePhone} /> Whatsaap: +258825784320 </div>
                             <div className="contact2"> <FontAwesomeIcon icon={faEnvelope} />Email: ggcvalentim@gmail.com</div>
-
-                            
-
                         </div>
-
 
                         <div>
 
@@ -290,7 +287,6 @@ const Casamento = () => {
                             <div> Prazo de Entregas</div>
 
                         </div>
-
 
                         <div>
 
@@ -306,9 +302,7 @@ const Casamento = () => {
 
                         </div>
 
-
                         <div className='textos'>
-
 
                             <Form>
                                 <Form.Group controlId="formGroupEmail">
@@ -325,71 +319,14 @@ const Casamento = () => {
                                     </Form.Group>
                                 </Form.Group>
                             </Form>
-
-
                         </div>
-
                     </div>
-
-
                     <div className="reserved">
                         <p> &copy; 2023 Valentim Decorações. All Rights Reserved </p>
                     </div>
 
                 </div>
-
-
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
     )
 

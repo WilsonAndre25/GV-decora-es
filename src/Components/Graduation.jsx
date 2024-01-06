@@ -1,7 +1,6 @@
 import {Form } from "react-bootstrap"
 
 
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHouse, faPhoneVolume, faSquarePhone, faTruckFast, } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faSquareWhatsapp } from '@fortawesome/free-brands-svg-icons'

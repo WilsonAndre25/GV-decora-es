@@ -17,7 +17,7 @@ const infantis = () => {
 
          <div className='fisrtSlider'>
 
-            <div className=' marcação'>
+            <div className='marcação'>
                <h3>Aniversarios</h3>
             </div>
 

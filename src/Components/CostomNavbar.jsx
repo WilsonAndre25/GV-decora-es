@@ -1,7 +1,7 @@
 
 import{Navbar,NavDropdown,Nav } from 'react-bootstrap'
 import tema from './img/tema 11.jpg'
-import { Link } from "react-router-dom"
+
 const CostomNavbar = () => {
     
   return (
@@ -13,14 +13,14 @@ const CostomNavbar = () => {
       </div>
       
         <Navbar.Brand href="#home"></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle id="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
           <div className='list'>
           <Nav className="me-auto">
            
             <Nav.Link  href="Home" id='home'>Home</Nav.Link>
-            <Nav.Link  href="Home" id='home'>Sobre Nós</Nav.Link>
+            <Nav.Link  href="Home" id='home'>Quem Somos</Nav.Link>
             <NavDropdown   title="Nossos Serviços" id="collasible-nav-dropdown">
                
                <NavDropdown.Item href="CASAMENTOS1">Casamentos</NavDropdown.Item>

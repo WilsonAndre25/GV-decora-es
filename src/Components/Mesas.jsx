@@ -13,7 +13,7 @@ const Mesas = () => {
             <div className='fisrtSlider'>
 
                 <div className=' marcação'>
-                    <h3>Decorações de Mesa</h3>
+                    <h3>Decorações de Mesas</h3>
                 </div>
 
                 < div className='cards'>
