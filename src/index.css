@@ -553,8 +553,13 @@ border-color: #fff;
 }
 
 .firstOne {
-  margin-left: 420px;
- display: flex;
+
+ display: block;
+}
+
+
+.secondone img{
+  display: none;
 }
 
 

@@ -1,6 +1,6 @@
 
 import { } from 'react-bootstrap'
-import { Card, Row, Carousel, Col, Form } from 'react-bootstrap'
+import { Card, Row, Carousel, Form } from 'react-bootstrap'
 import logo from './img/vd1.png'
 
 
@@ -16,79 +16,92 @@ const Casamento = () => {
             <div className='slider'>
 
                 <Row className='justify-content-center '>
-            
-                        <Carousel >
-                            <Carousel.Item interval={1000}>
-                                <div className='firstOne'>
-                                    <img
-                                       
-                                        src="img/ceanrio noivo 14.jpeg"
-                                        alt="First-slide"/>
+
+                    <Carousel >
+                        <Carousel.Item interval={1000}>
+                            <div className='firstOne'>
+                                <img
+
+                                    src="img/ceanrio noivo 14.jpeg"
+                                    alt="First-slide" />
+
+                                <div className='secondone'>
+
+                                    <div className='secondone'>
+
 
                                         <img
-                                    
-                                    src="img/casamento salão2.jpeg"
-                                    alt="Second slide"
-                                />
 
-                               
+                                            src="img/casamento salão2.jpeg"
+                                            alt="Second slide"
+                                        />
+                                    </div>
+
                                 </div>
 
-                                <Carousel.Caption>
-                                    <h3></h3>
-                                    <p></p>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item interval={500}>
+                            </div>
 
-                                <div className='firstOne'>
+                            <Carousel.Caption>
+                                <h3></h3>
+                                <p></p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item interval={500}>
+
+                            <div className='firstOne'>
+                                <img
+
+                                    src="img/mesa doura.jpeg"
+                                    alt="Second "
+                                />
+
+                                <div className='secondone'>
+
                                     <img
-                                      
-                                        src="img/mesa doura.jpeg"
-                                        alt="Second "
-                                    />
-                                  
-                                        <img
-                                        
+
                                         src="img/mesa4.jpeg"
                                         alt="Second "
                                     />
-                                
+
                                 </div>
 
-                                <Carousel.Caption>
-                                    <h3></h3>
-                                    <p></p>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item>
+                            </div>
 
-                                <div className='firstOne'>
+                            <Carousel.Caption>
+                                <h3></h3>
+                                <p></p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+
+                            <div className='firstOne'>
+                                <img
+
+                                    src="img/cenario noivos 9.jpeg"
+                                    alt="Third slide"
+                                />
+
+                                <div className='secondone'>
                                     <img
-                                   
-                                        src="img/cenario noivos 9.jpeg"
+
+                                        src="img/cenario noivos 11.jpeg"
                                         alt="Third slide"
                                     />
- 
-                                    
-                              <img
-                               
-                               src="img/cenario noivos 11.jpeg"
-                               alt="Third slide"
-                           />
-                                    <div className='divisão'>
-
-                                    </div>
-
-                                   
                                 </div>
-                                <Carousel.Caption>
-                                    <h3></h3>
-                                    <p></p>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                        </Carousel>
-                  
+
+                                <div className='divisão'>
+
+                                </div>
+
+
+                            </div>
+                            <Carousel.Caption>
+                                <h3></h3>
+                                <p></p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
+
                 </Row>
             </div>
 
