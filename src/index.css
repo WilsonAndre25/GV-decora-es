@@ -419,7 +419,9 @@ form input, form textarea{
   width: 22%;
   padding-top: 40px;
   cursor: pointer;
+
 }
+
 
 
 /*------------CSS for Small Screens---------------*/
@@ -431,7 +433,7 @@ form input, form textarea{
 .Temas{
   display: block;
   font-size: 18px;
-
+justify-content: center;
 }
 
 .Temas h6{
@@ -476,12 +478,19 @@ form input, form textarea{
 .cards{
 
   display: block;
-  margin-left: 25px;
+ justify-content: center;
 }
+
+.imgedite{
+   display: flex;
+   justify-content: center;
+
+}
+
 
 .cards2{
   display: block;
-  margin-left: 25px;
+ 
 }
 
 .imgedite{
@@ -548,7 +557,7 @@ border-color: #fff;
 }
 
 .firstOne img{
-  width: 400px;
+  width: 420px;
   height: 350px;
 }
 

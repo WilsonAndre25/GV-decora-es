@@ -1,5 +1,5 @@
 
-import { } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 import { Card, Row, Carousel, Form } from 'react-bootstrap'
 import logo from './img/vd1.png'
 
@@ -163,7 +163,7 @@ const Casamento = () => {
 
                         <div className='foote'>
                             <h5>Casamentos</h5>
-                            <a href='CASAMENTOS1'>  Ver Mais   </a>
+                            <a href='CASAMENTOS1'>Ver Mais</a>
                         </div>
                     </div>
 
@@ -173,7 +173,7 @@ const Casamento = () => {
 
                         <div className='foote'>
                             <h5> Graduações</h5>
-                            <a href='Graduation'>  Ver Mais   </a>
+                            <a href='Graduation'> Ver Mais</a>
 
                         </div>
 
@@ -188,7 +188,7 @@ const Casamento = () => {
                         <div className='foote'>
                             <h5>Civil</h5>
 
-                            <a href='k'>  Ver Mais   </a>
+                            <a href='k'>Ver Mais </a>
 
                         </div>
                     </div>
@@ -198,7 +198,7 @@ const Casamento = () => {
 
                         <div className='foote'>
                             <h5>Baby Shower</h5>
-                            <a href='k'>  Ver Mais   </a>
+                            <a href='k'>Ver Mais </a>
                         </div>
                     </div>
 
@@ -208,7 +208,7 @@ const Casamento = () => {
                             <h5>
                                 Batizados
                             </h5>
-                            <a href='Batismo'>  Ver Mais   </a>
+                            <a href='Batismo'>Ver Mais </a>
                         </div>
                         <span> </span>
                     </div>
@@ -219,7 +219,7 @@ const Casamento = () => {
                         <div className='foote'>
                             <h5>Igreja</h5>
 
-                            <a href='k'>  Ver Mais   </a>
+                            <a href='k'> Ver Mais</a>
 
                         </div>
                     </div>
@@ -331,6 +331,7 @@ const Casamento = () => {
                                         <Form.Control as="textarea" rows={3} />
                                     </Form.Group>
                                 </Form.Group>
+                                <button type="button" class="btn btn-primary  mt-2"> Enviar</button>
                             </Form>
                         </div>
                     </div>
