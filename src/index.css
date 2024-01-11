@@ -18,6 +18,110 @@ code {
 /*----------------CSS for Navbar-------------*/
 
 
+.Aboutus {
+ background: #f5eeee;
+  display: flex;
+ margin-top: 30px;
+   gap: 80px;
+ justify-content: flex-start;
+ border-radius: 5px;
+
+}
+
+
+.Somos img{
+  
+  border-radius: 10px;
+  width: 100%;
+  height:100% ;
+  transition: 0.5s;
+}
+
+.Somos2 h6{
+  color: darkred;
+  margin-top: 12px;
+
+}
+
+.Somos2{
+  border-radius: 10px;
+ 
+}
+
+.Somos2 span{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: 300;
+
+
+}
+
+
+
+.Somos2 p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-style: initial;
+
+}
+
+
+.Somos{
+   overflow: hidden;
+  position: relative;
+ 
+ border-radius: 10px;
+}
+
+
+
+.Somos:hover img{
+  transform: scale(1.1);
+ 
+}
+
+
+.layer{
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),#ff004f);
+  border-radius: 10px;
+  position: absolute;
+  left:0 ;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  overflow: hidden;
+  font-size: 14px;
+  transition: height 0.7s;
+
+
+}
+
+
+.layer  p{
+color: #fff;
+
+}
+.layer h3{
+  color: #fff;
+}
+
+.Somos:hover .layer{
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+
+}
+
+
+
+
+
 
 .tema img{
   width: 60px;
@@ -211,9 +315,6 @@ cursor: pointer;
   color:#fff;
 }
 
-
-
-
 .cards{
    margin-top: 4px;
   display: flex;
@@ -233,6 +334,7 @@ cursor: pointer;
    color:indigo;
   
 }
+
 
 
 .imgedite{
@@ -259,15 +361,23 @@ cursor: pointer;
 
 }
 
+
+
+
+.imgedite :hover .foote{
+  height: 100%;
+  
+  }
+
+
 .imgedite img{
   transition: transform 0.5s;
 } 
 
 .imgedite :hover .foote{
-height: 100%;
-
-}
-
+  height: 100%;
+  
+  }
 
 div .foote  h5{
   color: blue;
@@ -434,6 +544,7 @@ form input, form textarea{
   display: block;
   font-size: 18px;
 justify-content: center;
+
 }
 
 .Temas h6{
@@ -570,6 +681,51 @@ border-color: #fff;
 .secondone img{
   display: none;
 }
+
+
+
+
+
+
+
+
+
+.Aboutus {
+  background: #f5eeee;
+   display: block;
+  margin-top: 30px;
+  
+ }
+
+
+.Somos2 span{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+
+}
+
+.Somos2{
+  display: block;
+  justify-content: center;
+  padding: 8px 8px;
+}
+
+
+.Somos2 p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11x;
+ 
+
+}
+
+
+.Somos2 h6{
+
+  display:flex;
+
+justify-content: center;
+}
+
 
 
 }

@@ -1,5 +1,5 @@
 
-import { Button } from 'react-bootstrap'
+
 import { Card, Row, Carousel, Form } from 'react-bootstrap'
 import logo from './img/vd1.png'
 
@@ -119,7 +119,7 @@ const Casamento = () => {
 
                     <div className="CASAMENTO"> <a href='CASAMENTOS1'>CASAMENTOS </a></div>
                     <div className="BATISMO"> <a href='Batismo'>BATISMO & COMUNHÃO</a></div>
-                    <div className="DESPEDIDAS"> <a href=''>DESPEDIDA DE SOLTEIRO</a></div>
+                    <div className="DESPEDIDAS"> <a href='g'>DESPEDIDA DE SOLTEIRO</a></div>
                     <div className="BABY"> <a href='Graduation'>GRADUAÇÕES</a></div>
                     <div className="INFANTIS"> < a href='Infantis'>FESTAS INFANTIS</a></div>
                     <div className="Mesas">  <a href='Mesas'>MESA DE FESTAS</a></div>
@@ -265,10 +265,106 @@ const Casamento = () => {
                         </Card>
                     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
 
-            </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+                <div className='Aboutus'>
+
+
+
+
+                    <div className="Somos">
+                        <img src="img/csame gv.jpeg" alt='' />
+                        <div className='layer'>
+                            <h3>Valentim Decorações</h3>
+                            <p>Decoramos com Amor e Paixão</p>
+                        </div>
+                    </div>
+
+                    <div className='Somos2' >
+
+                        <h6> Quem Somos ?</h6>
+
+                        <span> A Valentim Decorações é uma empresa, especializada em decorações  para todo o tipo de eventos e momentos. Contamos com mais de 12 anos de experiência no mercado e centenas  de clientes satisfeitos com as soluções que propomos  </span>
+
+
+                        <h6> Nossa Missão</h6>
+                        <p>É sermos o seu parceiro na organização da sua festa, procurando disponibilizar-lhe tudo o que precisa para que o evento seja o sucesso que deseja.</p>
+
+                        <h6> Nossa Visão </h6>
+                        <p>Através de pessoas , criar um ambiente que proporciona alegria e satisfação as nossos clientes e ser o agente de inovação e criatividade.</p>
+
+
+                        <h6> Os nossos Valores </h6>
+                       
+                        <p> Especializados em impulsionar e inovar com foco em proporcionar  experiências diferenciadas em qualquer ambiente festivo no que se refere a decorações. Oferecendo divesas variedade e temas bastantes sugestivos.</p>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
 
             <div>
 
@@ -339,8 +435,21 @@ const Casamento = () => {
                         <p> &copy; 2023 Valentim Decorações. All Rights Reserved </p>
                     </div>
 
+
+
+
+
+
+
                 </div>
             </div>
+
+
+
+
+
+
+
         </div>
     )
 

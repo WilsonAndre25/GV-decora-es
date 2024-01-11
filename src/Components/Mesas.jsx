@@ -160,6 +160,7 @@ const Mesas = () => {
                                         <Form.Control as="textarea" rows={3} />
                                     </Form.Group>
                                 </Form.Group>
+                                <button type="button" class="btn btn-primary  mt-2"> Enviar</button>
                             </Form>
 
 

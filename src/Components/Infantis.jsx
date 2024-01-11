@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHouse, faPhoneVolume, faSquarePhone, faTruckFast, } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faSquareWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
-import tema from './img/tema 11.jpg'
 
 
 const infantis = () => {
@@ -174,6 +173,7 @@ const infantis = () => {
                               <Form.Control as="textarea" rows={3} />
                            </Form.Group>
                         </Form.Group>
+                        <button type="button" class="btn btn-primary  mt-2"> Enviar</button>
                      </Form>
 
 
@@ -190,32 +190,6 @@ const infantis = () => {
 
 
          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

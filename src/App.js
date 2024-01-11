@@ -15,7 +15,7 @@ import Infantis from './Components/Infantis';
 
 import Batismo from './Components/Batistmo';
 import Mesas from './Components/Mesas'
-
+import Somos from './Components/Somos';
 
 
 function App() {
@@ -33,13 +33,15 @@ function App() {
      <Routes> 
     
     <Route path="*"element={<Home/>}/>
+
     <Route path="/CASAMENTOS1"element={<CASAMENTOS1/>}/>
     <Route path="/Graduation"element={<Graduation/>}/>
     <Route path="/infantis"element={<Infantis/>}/>
+    <Route path="/Somos"element={<Somos/>}/>
     <Route path="/Batismo"element={<Batismo/>}/>
     <Route path="/Mesas"element={<Mesas/>}/>
-       
-        </Routes>
+   
+     </Routes>
        
         
 
