@@ -183,7 +183,7 @@ const Casamento = () => {
                 < div className='cards2'>
 
                     <div className='imgedite'>
-                        <img className=' rounded' src="img/civil.jpeg" width={300} height={400} alt='' />
+                        <img className=' rounded' src="img/civil 10.jpeg" width={300} height={400} alt='' />
 
                         <div className='foote'>
                             <h5>Civil</h5>
@@ -194,10 +194,10 @@ const Casamento = () => {
                     </div>
 
                     <div className='imgedite'>
-                        <img className=' rounded' src="img/cenario azul rosa.jpeg" width={300} height={400} alt='' />
+                        <img className=' rounded' src="img/PHOTO-2023-12-31-15-03-44.jpg" width={300} height={400} alt='' />
 
                         <div className='foote'>
-                            <h5>Baby Shower</h5>
+                            <h5>Cenários</h5>
                             <a href='k'>Ver Mais </a>
                         </div>
                     </div>

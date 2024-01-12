@@ -19,8 +19,8 @@ const CostomNavbar = () => {
           <div className='list'>
           <Nav className="me-auto">
            
-            <Nav.Link  href="Home" id='home'>Home</Nav.Link>
-            <Nav.Link  href="Home" id='home'>Quem Somos</Nav.Link>
+            <Nav.Link  href=" home" id='home'>Home</Nav.Link>
+            <Nav.Link  href="Despedidas" id='home'>Quem Somos</Nav.Link>
             <NavDropdown   title="Nossos Serviços" id="collasible-nav-dropdown">
                
                <NavDropdown.Item href="CASAMENTOS1">Casamentos</NavDropdown.Item>
